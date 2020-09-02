@@ -22,3 +22,5 @@ Route::get('mee', function(){
 });
 
 Route::get('me', 'AuthController@me');
+
+Route::get('/books', 'BooksController@index');
